@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Address NearestAirport="Sky Harbor International Airport">
+            <Number>11</Number>
+            <Street>E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+    </Hotel>
+    <Hotel Rating="4.7">
+        <Name>Bellagio</Name>
+        <Address NearestAirport="McCarran International Airport">
+            <Number>3600</Number>
+            <Street>S Las Vegas Blvd</Street>
+            <City>Las Vegas</City>
+            <State>NV</State>
+            <Zip>89109</Zip>
+        </Address>
+        <Phone>702-693-7111</Phone>
+        <Phone>888-987-6667</Phone>
+    </Hotel>
+    <Hotel Rating="4.6">
+        <Name>The Plaza</Name>
+        <Address NearestAirport="LaGuardia Airport">
+            <Number>768</Number>
+            <Street>5th Ave</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10019</Zip>
+        </Address>
+        <Phone>212-759-3000</Phone>
+    </Hotel>
+    <Hotel Rating="4.8">
+        <Name>Ritz-Carlton Los Angeles</Name>
+        <Address NearestAirport="Los Angeles International Airport">
+            <Number>900</Number>
+            <Street>W Olympic Blvd</Street>
+            <City>Los Angeles</City>
+            <State>CA</State>
+            <Zip>90015</Zip>
+        </Address>
+        <Phone>213-743-8800</Phone>
+        <Phone>800-241-3333</Phone>
+    </Hotel>
+    <Hotel Rating="4.5">
+        <Name>Hilton Hawaiian Village</Name>
+        <Address NearestAirport="Honolulu International Airport">
+            <Number>2005</Number>
+            <Street>Kalia Rd</Street>
+            <City>Honolulu</City>
+            <State>HI</State>
+            <Zip>96815</Zip>
+        </Address>
+        <Phone>808-949-4321</Phone>
+        <Phone>800-445-8667</Phone>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>Hyatt Regency Chicago</Name>
+        <Address NearestAirport="O'Hare International Airport">
+            <Number>151</Number>
+            <Street>E Wacker Dr</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60601</Zip>
+        </Address>
+        <Phone>312-565-1234</Phone>
+        <Phone>800-233-1234</Phone>
+    </Hotel>
+    <Hotel>
+        <Name>Sheraton Boston</Name>
+        <Address NearestAirport="Logan International Airport">
+            <Number>39</Number>
+            <Street>Dalton St</Street>
+            <City>Boston</City>
+            <State>MA</State>
+            <Zip>02199</Zip>
+        </Address>
+        <Phone>617-236-2000</Phone>
+        <Phone>888-627-7054</Phone>
+    </Hotel>
+    <Hotel>
+        <Name>The Broadmoor</Name>
+        <Address NearestAirport="Colorado Springs Airport">
+            <Number>1</Number>
+            <Street>Lake Ave</Street>
+            <City>Colorado Springs</City>
+            <State>CO</State>
+            <Zip>80906</Zip>
+        </Address>
+        <Phone>719-634-7711</Phone>
+        <Phone>855-634-7711</Phone>
+    </Hotel>
+    <Hotel>
+        <Name>Hotel del Coronado</Name>
+        <Address NearestAirport="San Diego International Airport">
+            <Number>1500</Number>
+            <Street>Orange Ave</Street>
+            <City>Coronado</City>
+            <State>CA</State>
+            <Zip>92118</Zip>
+        </Address>
+        <Phone>619-435-6611</Phone>
+        <Phone>800-468-3533</Phone>
+    </Hotel>
+    <Hotel Rating="4.3">
+        <Name>Grand Hyatt Seattle</Name>
+        <Address NearestAirport="Seattle-Tacoma International Airport">
+            <Number>721</Number>
+            <Street>Pine St</Street>
+            <City>Seattle</City>
+            <State>WA</State>
+            <Zip>98101</Zip>
+        </Address>
+        <Phone>206-774-1234</Phone>
+    </Hotel>
+    <Hotel Rating="4.6">
+        <Name>Waldorf Astoria Orlando</Name>
+        <Address NearestAirport="Orlando International Airport">
+            <Number>14200</Number>
+            <Street>Bonnet Creek Resort Lane</Street>
+            <City>Orlando</City>
+            <State>FL</State>
+            <Zip>32821</Zip>
+        </Address>
+        <Phone>407-597-5500</Phone>
+        <Phone>888-353-2009</Phone>
+    </Hotel>
+</Hotels>
