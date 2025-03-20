@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel>  <!-- Error 1: Root element should be "Hotels", not "Hotel" -->
+<Hotel> <!-- Error 1: Should be 'Hotels' -->
     <Hotel Rating="4.2">
         <Name>Westin</Name>
-        <Address>  <!-- Error 2: Missing required NearestAirport attribute -->
+        <Address> <!-- Error 2: Missing required attribute NearstAirport -->
             <Number>11</Number>
-            <Street>E 7th St</Street>
+            <Street>E.7th St</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
@@ -14,8 +14,8 @@
     </Hotel>
     <Hotel Rating="4.7">
         <Name>Bellagio</Name>
-        <Name>Bellagio</Name>  <!-- Error 5: Duplicate Name element for one hotel -->
-        <Address NearestAirport="McCarran International Airport">
+        <Name>Bellagio</Name> <!-- Error 5: Duplicate <Name> -->
+        <Address NearstAirport="McCarran International Airport">
             <Number>3600</Number>
             <Street>S Las Vegas Blvd</Street>
             <City>Las Vegas</City>
@@ -27,18 +27,18 @@
     </Hotel>
     <Hotel Rating="4.6">
         <Name>The Plaza</Name>
-        <Address NearestAirport="LaGuardia Airport">
+        <Address NearstAirport="LaGuardia Airport">
             <Number>768</Number>
             <Street>5th Ave</Street>
             <City>New York</City>
             <State>NY</State>
             <Zip>10019</Zip>
         </Address>
-        <!-- Error 3: No Phone element for The Plaza hotel -->
+        <!-- Error 3: Missing <Phone> element -->
     </Hotel>
     <Hotel Rating="4.8">
         <Name>Ritz-Carlton Los Angeles</Name>
-        <Address NearestAirport="Los Angeles International Airport">
+        <Address NearstAirport="Los Angeles International Airport">
             <Number>900</Number>
             <Street>W Olympic Blvd</Street>
             <City>Los Angeles</City>
@@ -48,16 +48,16 @@
         <Phone>213-743-8800</Phone>
         <Phone>800-241-3333</Phone>
     </Hotel>
-    <!-- ... (other hotels unchanged except final one) ... -->
+    <!-- ...other hotels unchanged until the last one... -->
     <Hotel Rating="4.6">
         <Name>Waldorf Astoria Orlando</Name>
-        <Address NearestAirport="Orlando International Airport">
+        <Address NearstAirport="Orlando International Airport">
             <Number>14200</Number>
             <Street>Bonnet Creek Resort Lane</Street>
             <City>Orlando</City>
             <State>FL</State>
             <Zip>32821</Zip>
-        <!-- Error 4: Address tag not closed for Waldorf Astoria Orlando -->
+        <!-- Error 4: The Address tag is never closed -->
         <Phone>407-597-5500</Phone>
         <Phone>888-353-2009</Phone>
     </Hotel>
