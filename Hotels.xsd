@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Define the root element and structure -->
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Hotel" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- Each Hotel must have exactly one Name -->
+              <xs:element name="Name" type="xs:string" />
+              <!-- Address element with required sub-elements and an attribute -->
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Number" type="xs:string" />
+                    <xs:element name="Street" type="xs:string" />
+                    <xs:element name="City" type="xs:string" />
+                    <xs:element name="State" type="xs:string" />
+                    <xs:element name="Zip" type="xs:string" />
+                  </xs:sequence>
+                  <!-- Required attribute for nearest airport -->
+                  <xs:attribute name="NearestAirport" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <!-- One or more Phone elements -->
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+            <!-- Optional Rating attribute for Hotel -->
+            <xs:attribute name="Rating" type="xs:decimal" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
