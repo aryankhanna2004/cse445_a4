@@ -2,7 +2,7 @@
 <Hotels>
     <Hotel Rating="4.2">
         <Name>Westin</Name>
-        <Address NearstAirport="Sky Habor">
+        <Address NearestAirport="Sky Habor">
             <Number>11</Number>
             <Street>E 7th St</Street>
             <City>Tempe</City>
@@ -14,7 +14,7 @@
     </Hotel>
     <Hotel Rating="4.7">
         <Name>Bellagio</Name>
-        <Address NearstAirport="McCarran International Airport">
+        <Address NearestAirport="McCarran International Airport">
             <Number>3600</Number>
             <Street>S Las Vegas Blvd</Street>
             <City>Las Vegas</City>
@@ -26,7 +26,7 @@
     </Hotel>
     <Hotel Rating="4.6">
         <Name>The Plaza</Name>
-        <Address NearstAirport="LaGuardia Airport">
+        <Address NearestAirport="LaGuardia Airport">
             <Number>768</Number>
             <Street>5th Ave</Street>
             <City>New York</City>
@@ -37,7 +37,7 @@
     </Hotel>
     <Hotel Rating="4.8">
         <Name>Ritz-Carlton Los Angeles</Name>
-        <Address NearstAirport="Los Angeles International Airport">
+        <Address NearestAirport="Los Angeles International Airport">
             <Number>900</Number>
             <Street>W Olympic Blvd</Street>
             <City>Los Angeles</City>
@@ -49,7 +49,7 @@
     </Hotel>
     <Hotel Rating="4.5">
         <Name>Hilton Hawaiian Village</Name>
-        <Address NearstAirport="Honolulu International Airport">
+        <Address NearestAirport="Honolulu International Airport">
             <Number>2005</Number>
             <Street>Kalia Rd</Street>
             <City>Honolulu</City>
@@ -61,7 +61,7 @@
     </Hotel>
     <Hotel Rating="4.4">
         <Name>Hyatt Regency Chicago</Name>
-        <Address NearstAirport="O'Hare International Airport">
+        <Address NearestAirport="O'Hare International Airport">
             <Number>151</Number>
             <Street>E Wacker Dr</Street>
             <City>Chicago</City>
@@ -73,7 +73,7 @@
     </Hotel>
     <Hotel>
         <Name>Sheraton Boston</Name>
-        <Address NearstAirport="Logan International Airport">
+        <Address NearestAirport="Logan International Airport">
             <Number>39</Number>
             <Street>Dalton St</Street>
             <City>Boston</City>
@@ -85,7 +85,7 @@
     </Hotel>
     <Hotel>
         <Name>The Broadmoor</Name>
-        <Address NearstAirport="Colorado Springs Airport">
+        <Address NearestAirport="Colorado Springs Airport">
             <Number>1</Number>
             <Street>Lake Ave</Street>
             <City>Colorado Springs</City>
@@ -97,7 +97,7 @@
     </Hotel>
     <Hotel>
         <Name>Hotel del Coronado</Name>
-        <Address NearstAirport="San Diego International Airport">
+        <Address NearestAirport="San Diego International Airport">
             <Number>1500</Number>
             <Street>Orange Ave</Street>
             <City>Coronado</City>
@@ -109,7 +109,7 @@
     </Hotel>
     <Hotel Rating="4.3">
         <Name>Grand Hyatt Seattle</Name>
-        <Address NearstAirport="Seattle-Tacoma International Airport">
+        <Address NearestAirport="Seattle-Tacoma International Airport">
             <Number>721</Number>
             <Street>Pine St</Street>
             <City>Seattle</City>
@@ -120,7 +120,7 @@
     </Hotel>
     <Hotel Rating="4.6">
         <Name>Waldorf Astoria Orlando</Name>
-        <Address NearstAirport="Orlando International Airport">
+        <Address NearestAirport="Orlando International Airport">
             <Number>14200</Number>
             <Street>Bonnet Creek Resort Lane</Street>
             <City>Orlando</City>
