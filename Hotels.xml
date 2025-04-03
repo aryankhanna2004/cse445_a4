@@ -1,133 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
-    <Hotel Rating="4.2">
+<Hotels xmlns="https://aryankhanna2004.github.io/cse445_a4/Hotels.xsd"
+        xmlns:bs="https://aryankhanna2004.github.io/cse445_a4/Hotels.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://aryankhanna2004.github.io/cse445_a4/Hotels.xsd">
+    <!-- Hotel 1: Westin Given -->
+    <Hotel>
         <Name>Westin</Name>
-        <Address NearstAirport="Sky Habor">
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address>
             <Number>11</Number>
-            <Street>E 7th St</Street>
+            <Street>E. 7th St</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
+            <NearstAirport>Sky Habor</NearstAirport>
         </Address>
-        <Phone>480-968-8885</Phone>
-        <Phone>800-937-8461</Phone>
+        <Rating>4.2</Rating>
     </Hotel>
-    <Hotel Rating="4.7">
+
+    <!-- Hotel 2: Bellagio -->
+    <Hotel>
         <Name>Bellagio</Name>
-        <Address NearstAirport="McCarran International Airport">
+        <Phone>702-693-7111</Phone>
+        <Phone>888-987-6667</Phone>
+        <Address>
             <Number>3600</Number>
             <Street>S Las Vegas Blvd</Street>
             <City>Las Vegas</City>
             <State>NV</State>
             <Zip>89109</Zip>
+            <NearstAirport>McCarran International Airport</NearstAirport>
         </Address>
-        <Phone>702-693-7111</Phone>
-        <Phone>888-987-6667</Phone>
+        <Rating>4.7</Rating>
     </Hotel>
-    <Hotel Rating="4.6">
+
+    <!-- Hotel 3: The Plaza -->
+    <Hotel>
         <Name>The Plaza</Name>
-        <Address NearstAirport="LaGuardia Airport">
+        <Phone>212-759-3000</Phone>
+        <Address>
             <Number>768</Number>
             <Street>5th Ave</Street>
             <City>New York</City>
             <State>NY</State>
             <Zip>10019</Zip>
+            <NearstAirport>LaGuardia Airport</NearstAirport>
         </Address>
-        <Phone>212-759-3000</Phone>
+        <Rating>4.6</Rating>
     </Hotel>
-    <Hotel Rating="4.8">
+
+    <!-- Hotel 4: Ritz-Carlton Los Angeles -->
+    <Hotel>
         <Name>Ritz-Carlton Los Angeles</Name>
-        <Address NearstAirport="Los Angeles International Airport">
+        <Phone>213-743-8800</Phone>
+        <Phone>800-241-3333</Phone>
+        <Address>
             <Number>900</Number>
             <Street>W Olympic Blvd</Street>
             <City>Los Angeles</City>
             <State>CA</State>
             <Zip>90015</Zip>
+            <NearstAirport>Los Angeles International Airport</NearstAirport>
         </Address>
-        <Phone>213-743-8800</Phone>
-        <Phone>800-241-3333</Phone>
+        <Rating>4.8</Rating>
     </Hotel>
-    <Hotel Rating="4.5">
+
+    <!-- Hotel 5: Hilton Hawaiian Village -->
+    <Hotel>
         <Name>Hilton Hawaiian Village</Name>
-        <Address NearstAirport="Honolulu International Airport">
+        <Phone>808-949-4321</Phone>
+        <Phone>800-445-8667</Phone>
+        <Address>
             <Number>2005</Number>
             <Street>Kalia Rd</Street>
             <City>Honolulu</City>
             <State>HI</State>
             <Zip>96815</Zip>
+            <NearstAirport>Honolulu International Airport</NearstAirport>
         </Address>
-        <Phone>808-949-4321</Phone>
-        <Phone>800-445-8667</Phone>
+        <Rating>4.5</Rating>
     </Hotel>
-    <Hotel Rating="4.4">
+
+    <!-- Hotel 6: Hyatt Regency Chicago -->
+    <Hotel>
         <Name>Hyatt Regency Chicago</Name>
-        <Address NearstAirport="O'Hare International Airport">
+        <Phone>312-565-1234</Phone>
+        <Phone>800-233-1234</Phone>
+        <Address>
             <Number>151</Number>
             <Street>E Wacker Dr</Street>
             <City>Chicago</City>
             <State>IL</State>
             <Zip>60601</Zip>
+            <NearstAirport>O'Hare International Airport</NearstAirport>
         </Address>
-        <Phone>312-565-1234</Phone>
-        <Phone>800-233-1234</Phone>
+        <Rating>4.4</Rating>
     </Hotel>
+
+    <!-- Hotel 7: Sheraton Boston (No Rating) -->
     <Hotel>
         <Name>Sheraton Boston</Name>
-        <Address NearstAirport="Logan International Airport">
+        <Phone>617-236-2000</Phone>
+        <Phone>888-627-7054</Phone>
+        <Address>
             <Number>39</Number>
             <Street>Dalton St</Street>
             <City>Boston</City>
             <State>MA</State>
             <Zip>02199</Zip>
+            <NearstAirport>Logan International Airport</NearstAirport>
         </Address>
-        <Phone>617-236-2000</Phone>
-        <Phone>888-627-7054</Phone>
     </Hotel>
+
+    <!-- Hotel 8: The Broadmoor (No Rating) -->
     <Hotel>
         <Name>The Broadmoor</Name>
-        <Address NearstAirport="Colorado Springs Airport">
+        <Phone>719-634-7711</Phone>
+        <Phone>855-634-7711</Phone>
+        <Address>
             <Number>1</Number>
             <Street>Lake Ave</Street>
             <City>Colorado Springs</City>
             <State>CO</State>
             <Zip>80906</Zip>
+            <NearstAirport>Colorado Springs Airport</NearstAirport>
         </Address>
-        <Phone>719-634-7711</Phone>
-        <Phone>855-634-7711</Phone>
     </Hotel>
+
+    <!-- Hotel 9: Hotel del Coronado (No Rating) -->
     <Hotel>
         <Name>Hotel del Coronado</Name>
-        <Address NearstAirport="San Diego International Airport">
+        <Phone>619-435-6611</Phone>
+        <Phone>800-468-3533</Phone>
+        <Address>
             <Number>1500</Number>
             <Street>Orange Ave</Street>
             <City>Coronado</City>
             <State>CA</State>
             <Zip>92118</Zip>
+            <NearstAirport>San Diego International Airport</NearstAirport>
         </Address>
-        <Phone>619-435-6611</Phone>
-        <Phone>800-468-3533</Phone>
     </Hotel>
-    <Hotel Rating="4.3">
+
+    <!-- Hotel 10: Grand Hyatt Seattle -->
+    <Hotel>
         <Name>Grand Hyatt Seattle</Name>
-        <Address NearstAirport="Seattle-Tacoma International Airport">
+        <Phone>206-774-1234</Phone>
+        <Address>
             <Number>721</Number>
             <Street>Pine St</Street>
             <City>Seattle</City>
             <State>WA</State>
             <Zip>98101</Zip>
+            <NearstAirport>Seattle-Tacoma International Airport</NearstAirport>
         </Address>
-        <Phone>206-774-1234</Phone>
+        <Rating>4.3</Rating>
     </Hotel>
-    <Hotel Rating="4.6">
+
+    <!-- Hotel 11: Waldorf Astoria Orlando -->
+    <Hotel>
         <Name>Waldorf Astoria Orlando</Name>
-        <Address NearstAirport="Orlando International Airport">
+        <Phone>407-597-5500</Phone>
+        <Phone>888-353-2009</Phone>
+        <Address>
             <Number>14200</Number>
             <Street>Bonnet Creek Resort Lane</Street>
             <City>Orlando</City>
             <State>FL</State>
             <Zip>32821</Zip>
+            <NearstAirport>Orlando International Airport</NearstAirport>
         </Address>
-        <Phone>407-597-5500</Phone>
-        <Phone>888-353-2009</Phone>
+        <Rating>4.6</Rating>
     </Hotel>
 </Hotels>
